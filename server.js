@@ -34,7 +34,6 @@ app.use('/music',music);
 app.use('/movie',movie);
 
 var server = app.listen(port,function(){
-
     var port = server.address().port
     console.log("访问port为 %s", port)
 })
